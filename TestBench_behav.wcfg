@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestBench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestBench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="76200001fs"></ZoomEndTime>
+      <Cursor1Time time="2050000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="202"></NameColumnWidth>
+      <ValueColumnWidth column_width="249"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="57" />
+   <wvobject fp_name="/TestBench/proc/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/pcIn" type="array">
+      <obj_property name="ElementShortName">pcIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcIn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/wpcir_PC" type="logic">
+      <obj_property name="ElementShortName">wpcir_PC</obj_property>
+      <obj_property name="ObjectShortName">wpcir_PC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/pcOut" type="array">
+      <obj_property name="ElementShortName">pcOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/pcIn_adder" type="array">
+      <obj_property name="ElementShortName">pcIn_adder[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcIn_adder[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/pcOut_adder" type="array">
+      <obj_property name="ElementShortName">pcOut_adder[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcOut_adder[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/a_InstMem" type="array">
+      <obj_property name="ElementShortName">a_InstMem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_InstMem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/do_InstMem" type="array">
+      <obj_property name="ElementShortName">do_InstMem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">do_InstMem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/do_IfId" type="array">
+      <obj_property name="ElementShortName">do_IfId[31:0]</obj_property>
+      <obj_property name="ObjectShortName">do_IfId[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/wpcir_IfId" type="logic">
+      <obj_property name="ElementShortName">wpcir_IfId</obj_property>
+      <obj_property name="ObjectShortName">wpcir_IfId</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/op_IfId" type="array">
+      <obj_property name="ElementShortName">op_IfId[5:0]</obj_property>
+      <obj_property name="ObjectShortName">op_IfId[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/rs_IfId" type="array">
+      <obj_property name="ElementShortName">rs_IfId[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_IfId[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/rt_IfId" type="array">
+      <obj_property name="ElementShortName">rt_IfId[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt_IfId[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/rd_IfId" type="array">
+      <obj_property name="ElementShortName">rd_IfId[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_IfId[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/shamt_IfId" type="array">
+      <obj_property name="ElementShortName">shamt_IfId[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shamt_IfId[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/func_IfId" type="array">
+      <obj_property name="ElementShortName">func_IfId[5:0]</obj_property>
+      <obj_property name="ObjectShortName">func_IfId[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/imme_IfId" type="array">
+      <obj_property name="ElementShortName">imme_IfId[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imme_IfId[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/wreg_CU" type="logic">
+      <obj_property name="ElementShortName">wreg_CU</obj_property>
+      <obj_property name="ObjectShortName">wreg_CU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/m2reg_CU" type="logic">
+      <obj_property name="ElementShortName">m2reg_CU</obj_property>
+      <obj_property name="ObjectShortName">m2reg_CU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/wmem_CU" type="logic">
+      <obj_property name="ElementShortName">wmem_CU</obj_property>
+      <obj_property name="ObjectShortName">wmem_CU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/aluc_CU" type="array">
+      <obj_property name="ElementShortName">aluc_CU[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluc_CU[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/aluimm_CU" type="logic">
+      <obj_property name="ElementShortName">aluimm_CU</obj_property>
+      <obj_property name="ObjectShortName">aluimm_CU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/regrt_CU" type="logic">
+      <obj_property name="ElementShortName">regrt_CU</obj_property>
+      <obj_property name="ObjectShortName">regrt_CU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/fwdb_CU" type="array">
+      <obj_property name="ElementShortName">fwdb_CU[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fwdb_CU[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/fwda_CU" type="array">
+      <obj_property name="ElementShortName">fwda_CU[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fwda_CU[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/wpcir_CU" type="logic">
+      <obj_property name="ElementShortName">wpcir_CU</obj_property>
+      <obj_property name="ObjectShortName">wpcir_CU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/regrt_Mux" type="logic">
+      <obj_property name="ElementShortName">regrt_Mux</obj_property>
+      <obj_property name="ObjectShortName">regrt_Mux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/rn" type="array">
+      <obj_property name="ElementShortName">rn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/a_fwda" type="array">
+      <obj_property name="ElementShortName">a_fwda[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_fwda[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/b_fwdb" type="array">
+      <obj_property name="ElementShortName">b_fwdb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_fwdb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/qa_RegFile" type="array">
+      <obj_property name="ElementShortName">qa_RegFile[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qa_RegFile[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/qb_RegFile" type="array">
+      <obj_property name="ElementShortName">qb_RegFile[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qb_RegFile[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/signEx_SignEx" type="array">
+      <obj_property name="ElementShortName">signEx_SignEx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signEx_SignEx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/ewreg_IdExe" type="logic">
+      <obj_property name="ElementShortName">ewreg_IdExe</obj_property>
+      <obj_property name="ObjectShortName">ewreg_IdExe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/em2reg_IdExe" type="logic">
+      <obj_property name="ElementShortName">em2reg_IdExe</obj_property>
+      <obj_property name="ObjectShortName">em2reg_IdExe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/ewmem_IdExe" type="logic">
+      <obj_property name="ElementShortName">ewmem_IdExe</obj_property>
+      <obj_property name="ObjectShortName">ewmem_IdExe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/ealuc_IdExe" type="array">
+      <obj_property name="ElementShortName">ealuc_IdExe[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ealuc_IdExe[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/ealuimm_IdExe" type="logic">
+      <obj_property name="ElementShortName">ealuimm_IdExe</obj_property>
+      <obj_property name="ObjectShortName">ealuimm_IdExe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/ern_IdExe" type="array">
+      <obj_property name="ElementShortName">ern_IdExe[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ern_IdExe[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/efwda_IdExe" type="array">
+      <obj_property name="ElementShortName">efwda_IdExe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">efwda_IdExe[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/efwdb_IdExe" type="array">
+      <obj_property name="ElementShortName">efwdb_IdExe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">efwdb_IdExe[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/esignEx_IdExe" type="array">
+      <obj_property name="ElementShortName">esignEx_IdExe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">esignEx_IdExe[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/b_Exe" type="array">
+      <obj_property name="ElementShortName">b_Exe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_Exe[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/r_Exe" type="array">
+      <obj_property name="ElementShortName">r_Exe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_Exe[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/mwreg_ExeMem" type="logic">
+      <obj_property name="ElementShortName">mwreg_ExeMem</obj_property>
+      <obj_property name="ObjectShortName">mwreg_ExeMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/mm2reg_ExeMem" type="logic">
+      <obj_property name="ElementShortName">mm2reg_ExeMem</obj_property>
+      <obj_property name="ObjectShortName">mm2reg_ExeMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/mwmem_ExeMem" type="logic">
+      <obj_property name="ElementShortName">mwmem_ExeMem</obj_property>
+      <obj_property name="ObjectShortName">mwmem_ExeMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/mrn_ExeMem" type="array">
+      <obj_property name="ElementShortName">mrn_ExeMem[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mrn_ExeMem[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/mr_ExeMem" type="array">
+      <obj_property name="ElementShortName">mr_ExeMem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mr_ExeMem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/mfwdb_ExeMem" type="array">
+      <obj_property name="ElementShortName">mfwdb_ExeMem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mfwdb_ExeMem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/do_Mem" type="array">
+      <obj_property name="ElementShortName">do_Mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">do_Mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/wwreg_MemWB" type="logic">
+      <obj_property name="ElementShortName">wwreg_MemWB</obj_property>
+      <obj_property name="ObjectShortName">wwreg_MemWB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/wm2reg_MemWB" type="logic">
+      <obj_property name="ElementShortName">wm2reg_MemWB</obj_property>
+      <obj_property name="ObjectShortName">wm2reg_MemWB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/wrn_MemWB" type="array">
+      <obj_property name="ElementShortName">wrn_MemWB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wrn_MemWB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/wr_MemWB" type="array">
+      <obj_property name="ElementShortName">wr_MemWB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_MemWB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/wdo_MemWB" type="array">
+      <obj_property name="ElementShortName">wdo_MemWB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdo_MemWB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/proc/d_WB" type="array">
+      <obj_property name="ElementShortName">d_WB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d_WB[31:0]</obj_property>
+   </wvobject>
+</wave_config>

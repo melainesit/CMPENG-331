@@ -1,0 +1,8 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Xilinx/CMPEN_331/CMPEN331_Lab4/CMPEN331_Lab3.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/CMPEN_331/CMPEN331_Lab4/CMPEN331_Lab3.srcs/sim_1/new/TestBench.v,1605858615,verilog,,,,TestBench,,,,,,,,
+C:/Xilinx/CMPEN_331/CMPEN331_Lab4/CMPEN331_Lab3.srcs/sources_1/new/IFID.v,1608166711,verilog,,C:/Xilinx/CMPEN_331/CMPEN331_Lab4/CMPEN331_Lab3.srcs/sources_1/new/processor.v,,ALU;Adder;ControlUnit;DMem;ExeMem;ForwardA;ForwardB;IdExe;IfId;InstMem;MemWB;Mux;MuxExe;MuxWB;PC;RegFile;SignExtend,,,,,,,,
+C:/Xilinx/CMPEN_331/CMPEN331_Lab4/CMPEN331_Lab3.srcs/sources_1/new/processor.v,1608109378,verilog,,C:/Xilinx/CMPEN_331/CMPEN331_Lab4/CMPEN331_Lab3.srcs/sim_1/new/TestBench.v,,Processor,,,,,,,,

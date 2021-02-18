@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CMPEN331_Lab3.srcs/sources_1/new/IFID.v" \
+"../../../../CMPEN331_Lab3.srcs/sources_1/new/processor.v" \
+"../../../../CMPEN331_Lab3.srcs/sim_1/new/TestBench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

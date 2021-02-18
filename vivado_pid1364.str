@@ -1,0 +1,342 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 1364
+License: Customer
+
+Current time: 	Mon Nov 16 21:48:37 EST 2020
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2560x1600
+Screen resolution (DPI): 200
+Available screens: 1
+Available disk space: 18 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=24
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Melaine Sit
+User home directory: C:/Users/Melaine Sit
+User working directory: C:/Xilinx/CMPEN_331/CMPEN331_Lab4
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/Melaine Sit/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/Melaine Sit/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/Melaine Sit/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Xilinx/CMPEN_331/CMPEN331_Lab4/vivado.log
+Vivado journal file location: 	C:/Xilinx/CMPEN_331/CMPEN331_Lab4/vivado.jou
+Engine tmp dir: 	C:/Xilinx/CMPEN_331/CMPEN331_Lab4/.Xil/Vivado-1364-DESKTOP-S4OFA3E
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	187 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 655 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Xilinx\CMPEN_331\CMPEN331_Lab4\CMPEN331_Lab3.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Xilinx/CMPEN_331/CMPEN331_Lab4/CMPEN331_Lab3.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Xilinx/CMPEN_331/CMPEN331_Lab4/CMPEN331_Lab3.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Xilinx/CMPEN_331/CMPEN331_Lab3' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 85 MB (+86693kb) [00:00:08]
+// [Engine Memory]: 683 MB (+564898kb) [00:00:08]
+// [GUI Memory]: 99 MB (+9673kb) [00:00:09]
+// [GUI Memory]: 122 MB (+19446kb) [00:00:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  3034 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 721 MB. GUI used memory: 64 MB. Current time: 11/16/20, 9:48:41 PM EST
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 749.801 ; gain = 88.691 
+// [Engine Memory]: 730 MB (+13192kb) [00:00:11]
+// Project name: CMPEN331_Lab3; location: C:/Xilinx/CMPEN_331/CMPEN331_Lab4; part: xc7z010clg400-1
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 771 MB (+4395kb) [00:00:17]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IfId (IFID.v)]", 1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IfId (IFID.v)]", 1, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("IFID.v", 204, 706); // cl (w, cl)
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1480 ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 709 seconds
+selectCodeEditor("IFID.v", 222, 782); // cl (w, cl)
+// [GUI Memory]: 140 MB (+11955kb) [00:12:24]
+// Elapsed time: 10 seconds
+selectCodeEditor("IFID.v", 228, 777); // cl (w, cl)
+// Elapsed time: 111 seconds
+selectCodeEditor("IFID.v", 207, 864); // cl (w, cl)
+// Elapsed time: 100 seconds
+selectCodeEditor("IFID.v", 167, 884); // cl (w, cl)
+selectCodeEditor("IFID.v", 167, 884, false, false, false, true, false); // cl (w, cl) - Popup Trigger
+selectCodeEditor("IFID.v", 167, 884); // cl (w, cl)
+selectCodeEditor("IFID.v", 122, 739); // cl (w, cl)
+selectCodeEditor("IFID.v", 122, 739); // cl (w, cl)
+// Elapsed time: 132 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, cl)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// Elapsed time: 285 seconds
+selectCodeEditor("IFID.v", 211, 718); // cl (w, cl)
+// Elapsed time: 146 seconds
+selectCodeEditor("IFID.v", 466, 633); // cl (w, cl)
+selectCodeEditor("IFID.v", 221, 716); // cl (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("IFID.v", 415, 704); // cl (w, cl)
+selectCodeEditor("IFID.v", 248, 781); // cl (w, cl)
+// Elapsed time: 55 seconds
+selectCodeEditor("IFID.v", 146, 311); // cl (w, cl)
+selectCodeEditor("IFID.v", 399, 411); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("IFID.v", 354, 307); // cl (w, cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("IFID.v", 354, 307); // cl (w, cl)
+// Elapsed time: 23 seconds
+selectCodeEditor("IFID.v", 203, 360); // cl (w, cl)
+// Elapsed time: 19 seconds
+selectCodeEditor("IFID.v", 207, 445); // cl (w, cl)
+// Elapsed time: 19 seconds
+selectCodeEditor("IFID.v", 214, 585); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("IFID.v", 210, 320); // cl (w, cl)
+// Elapsed time: 30 seconds
+selectCodeEditor("IFID.v", 308, 279); // cl (w, cl)
+// Elapsed time: 14 seconds
+selectCodeEditor("IFID.v", 207, 462); // cl (w, cl)
+selectCodeEditor("IFID.v", 205, 459); // cl (w, cl)
+// Elapsed time: 14 seconds
+selectCodeEditor("IFID.v", 263, 416); // cl (w, cl)
+selectCodeEditor("IFID.v", 158, 572); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 781 MB. GUI used memory: 62 MB. Current time: 11/16/20, 10:18:44 PM EST
+// Elapsed time: 122 seconds
+selectCodeEditor("IFID.v", 290, 218); // cl (w, cl)
+selectCodeEditor("IFID.v", 268, 61); // cl (w, cl)
+// Elapsed time: 511 seconds
+selectCodeEditor("IFID.v", 934, 554); // cl (w, cl)
+// Elapsed time: 27 seconds
+selectCodeEditor("IFID.v", 974, 228); // cl (w, cl)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 472 seconds
+selectCodeEditor("IFID.v", 937, 482); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("IFID.v", 959, 305); // cl (w, cl)
+// Elapsed time: 641 seconds
+selectCodeEditor("IFID.v", 974, 99); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 781 MB. GUI used memory: 56 MB. Current time: 11/16/20, 10:48:45 PM EST
+// Elapsed time: 135 seconds
+selectCodeEditor("IFID.v", 969, 287); // cl (w, cl)
+// Elapsed time: 893 seconds
+selectCodeEditor("IFID.v", 961, 464); // cl (w, cl)
+selectCodeEditor("IFID.v", 416, 235); // cl (w, cl)
+selectCodeEditor("IFID.v", 426, 285); // cl (w, cl)
+selectCodeEditor("IFID.v", 398, 235); // cl (w, cl)
+selectCodeEditor("IFID.v", 398, 235); // cl (w, cl)
+selectCodeEditor("IFID.v", 375, 162); // cl (w, cl)
+selectCodeEditor("IFID.v", 355, 335); // cl (w, cl)
+// Elapsed time: 23 seconds
+selectCodeEditor("IFID.v", 847, 282); // cl (w, cl)
+// Elapsed time: 14 seconds
+selectCodeEditor("IFID.v", 885, 149); // cl (w, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  20455 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2163 ms. Increasing delay to 6489 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 23650 ms. Increasing delay to 3000 ms.
+// Elapsed time: 369 seconds
+selectCodeEditor("IFID.v", 880, 415); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 781 MB. GUI used memory: 56 MB. Current time: 11/16/20, 11:18:48 PM EST
+// WARNING: HEventQueue.dispatchEvent() is taking  56392 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 60120 ms. Increasing delay to 180360 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 59246 ms. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6 ms. Decreasing delay to 2006 ms.
+// Elapsed time: 1594 seconds
+selectCodeEditor("IFID.v", 841, 252); // cl (w, cl)
+selectCodeEditor("IFID.v", 865, 164); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("IFID.v", 851, 240); // cl (w, cl)
+selectCodeEditor("IFID.v", 779, 218); // cl (w, cl)
+selectCodeEditor("IFID.v", 958, 257); // cl (w, cl)
+// Elapsed time: 37 seconds
+selectCodeEditor("IFID.v", 860, 631); // cl (w, cl)
+// Elapsed time: 17 seconds
+selectCodeEditor("IFID.v", 370, 478); // cl (w, cl)
+// Elapsed time: 24 seconds
+selectCodeEditor("IFID.v", 365, 411); // cl (w, cl)
+selectCodeEditor("IFID.v", 365, 411); // cl (w, cl)
+selectCodeEditor("IFID.v", 365, 411, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("IFID.v", 338, 386); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("IFID.v", 338, 386); // cl (w, cl)
+// Elapsed time: 34 seconds
+selectCodeEditor("IFID.v", 757, 297); // cl (w, cl)
+selectCodeEditor("IFID.v", 301, 415); // cl (w, cl)
+selectCodeEditor("IFID.v", 892, 190); // cl (w, cl)
+selectCodeEditor("IFID.v", 255, 423); // cl (w, cl)
+// Elapsed time: 21 seconds
+selectCodeEditor("IFID.v", 351, 421); // cl (w, cl)
+// Elapsed time: 23 seconds
+selectCodeEditor("IFID.v", 821, 207); // cl (w, cl)
+// Elapsed time: 23 seconds
+selectCodeEditor("IFID.v", 910, 290); // cl (w, cl)
+selectCodeEditor("IFID.v", 933, 384); // cl (w, cl)
+// Elapsed time: 49 seconds
+selectCodeEditor("IFID.v", 887, 318); // cl (w, cl)
+// Elapsed time: 35 seconds
+selectCodeEditor("IFID.v", 840, 146); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 781 MB. GUI used memory: 56 MB. Current time: 11/16/20, 11:48:51 PM EST
+// Elapsed time: 272 seconds
+selectCodeEditor("IFID.v", 837, 23); // cl (w, cl)
+// Elapsed time: 65 seconds
+selectCodeEditor("IFID.v", 715, 576); // cl (w, cl)
+selectCodeEditor("IFID.v", 784, 817); // cl (w, cl)
+selectCodeEditor("IFID.v", 780, 739); // cl (w, cl)
+selectCodeEditor("IFID.v", 420, 559); // cl (w, cl)
+selectCodeEditor("IFID.v", 420, 559); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("IFID.v", 795, 665); // cl (w, cl)
+selectCodeEditor("IFID.v", 661, 715); // cl (w, cl)
+selectCodeEditor("IFID.v", 166, 645); // cl (w, cl)
+selectCodeEditor("IFID.v", 218, 680); // cl (w, cl)
+selectCodeEditor("IFID.v", 277, 715); // cl (w, cl)
+selectCodeEditor("IFID.v", 640, 697); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("IFID.v", 285, 777); // cl (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("IFID.v", 694, 553); // cl (w, cl)
+selectCodeEditor("IFID.v", 231, 802); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("IFID.v", 374, 850); // cl (w, cl)
+selectCodeEditor("IFID.v", 374, 871); // cl (w, cl)
+selectCodeEditor("IFID.v", 292, 878); // cl (w, cl)
+selectCodeEditor("IFID.v", 485, 883); // cl (w, cl)
+selectCodeEditor("IFID.v", 295, 812); // cl (w, cl)
+selectCodeEditor("IFID.v", 278, 844); // cl (w, cl)
+selectCodeEditor("IFID.v", 201, 816); // cl (w, cl)
+selectCodeEditor("IFID.v", 524, 831); // cl (w, cl)
+// Elapsed time: 37 seconds
+selectCodeEditor("IFID.v", 172, 617); // cl (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("IFID.v", 575, 85); // cl (w, cl)
+selectCodeEditor("IFID.v", 343, 85); // cl (w, cl)
+// Elapsed time: 210 seconds
+selectCodeEditor("IFID.v", 844, 333); // cl (w, cl)
+// Elapsed time: 65 seconds
+selectCodeEditor("IFID.v", 851, 397); // cl (w, cl)
+selectCodeEditor("IFID.v", 329, 350); // cl (w, cl)
+// Elapsed time: 24 seconds
+selectCodeEditor("IFID.v", 825, 580); // cl (w, cl)
+selectCodeEditor("IFID.v", 135, 316); // cl (w, cl)
+selectCodeEditor("IFID.v", 145, 336); // cl (w, cl)
+selectCodeEditor("IFID.v", 877, 430); // cl (w, cl)
+// Elapsed time: 25 seconds
+selectCodeEditor("IFID.v", 814, 548); // cl (w, cl)
+selectCodeEditor("IFID.v", 509, 713); // cl (w, cl)
+// Elapsed time: 125 seconds
+selectCodeEditor("IFID.v", 881, 133); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("IFID.v", 576, 88); // cl (w, cl)
+selectCodeEditor("IFID.v", 410, 150); // cl (w, cl)
+selectCodeEditor("IFID.v", 410, 150, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("IFID.v", 410, 150); // cl (w, cl)
+selectCodeEditor("IFID.v", 410, 150); // cl (w, cl)
+selectCodeEditor("IFID.v", 410, 150); // cl (w, cl)
+selectCodeEditor("IFID.v", 410, 150, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("IFID.v", 410, 150); // cl (w, cl)
+selectCodeEditor("IFID.v", 280, 157); // cl (w, cl)
+selectCodeEditor("IFID.v", 334, 184); // cl (w, cl)
+selectCodeEditor("IFID.v", 391, 217); // cl (w, cl)
+selectCodeEditor("IFID.v", 336, 253); // cl (w, cl)
+selectCodeEditor("IFID.v", 396, 253); // cl (w, cl)
+selectCodeEditor("IFID.v", 168, 313); // cl (w, cl)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("IFID.v", 834, 428); // cl (w, cl)
+selectCodeEditor("IFID.v", 834, 473); // cl (w, cl)
+// Elapsed time: 132 seconds
+selectCodeEditor("IFID.v", 922, 286); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IFID.v", 1); // k (j, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  365052 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2047 ms. Increasing delay to 6141 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4386269 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 781 MB. GUI used memory: 55 MB. Current time: 11/17/20, 1:23:46 AM EST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4391001 ms. Increasing delay to 5000 ms.
+// Elapsed time: 4784 seconds
+selectCodeEditor("IFID.v", 258, 265); // cl (w, cl)
+selectCodeEditor("IFID.v", 898, 569); // cl (w, cl)
+selectCodeEditor("IFID.v", 725, 729); // cl (w, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  288894 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 292288 ms. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4966270 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 781 MB. GUI used memory: 55 MB. Current time: 11/17/20, 3:07:16 AM EST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3043 ms. Increasing delay to 7000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  10798821 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 781 MB. GUI used memory: 55 MB. Current time: 11/17/20, 6:07:59 AM EST
+// WARNING: HEventQueue.dispatchEvent() is taking  2370 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5053 ms. Increasing delay to 15159 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4935 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4522 ms. Increasing delay to 8000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 781 MB. GUI used memory: 55 MB. Current time: 11/18/20, 11:23:08 PM EST

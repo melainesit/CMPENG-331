@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov 22 00:47:09 2020
+# Process ID: 1532
+# Current directory: C:/Xilinx/CMPEN_331/CMPEN331_Lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11292 C:\Xilinx\CMPEN_331\CMPEN331_Lab4\CMPEN331_Lab3.xpr
+# Log file: C:/Xilinx/CMPEN_331/CMPEN331_Lab4/vivado.log
+# Journal file: C:/Xilinx/CMPEN_331/CMPEN331_Lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/CMPEN_331/CMPEN331_Lab4/CMPEN331_Lab3.xpr
+launch_simulation
+open_wave_config C:/Xilinx/CMPEN_331/CMPEN331_Lab4/TestBench_behav.wcfg
+source TestBench.tcl
+close_sim
